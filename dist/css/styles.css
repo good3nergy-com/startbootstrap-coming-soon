@@ -11340,6 +11340,14 @@ video.bg-video {
     display: none;
   }
 }
+a[href] {
+  text-decoration: none;
+  color: white;
+}
+a[href]:hover {
+  opacity: 0.5;
+}
+
 .masthead {
   position: relative;
   overflow: hidden;

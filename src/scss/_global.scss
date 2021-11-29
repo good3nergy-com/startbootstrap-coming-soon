@@ -65,3 +65,10 @@ video.bg-video {
         display: none;
     }
 }
+a[href] {
+    text-decoration: none;
+    color:white;
+    &:hover {
+        opacity:.5;
+    }
+}
