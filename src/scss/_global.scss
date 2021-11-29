@@ -72,3 +72,17 @@ a[href] {
         opacity:.5;
     }
 }
+
+@media only screen and (max-width : 900px) {
+    .logo {
+        display:none;
+        position:absolute;
+        right:0px;
+        background: url('../assets/img/logo.webp') white no-repeat center center scroll;
+        border-radius:50%;
+        background-size: cover;
+        width:50px !important;
+        height:50px !important;
+    }
+}
+
