@@ -11321,12 +11321,15 @@ video.bg-video {
 
 .logo {
   position: absolute;
-  right: 0px;
+  margin: 20px;
+  z-index: 999;
+  bottom: 0px;
+  left: 0px;
   background: url("../assets/img/logo.webp") white no-repeat center center scroll;
   border-radius: 50%;
   background-size: cover;
-  width: 150px;
-  height: 150px;
+  width: 50px;
+  height: 50px;
 }
 
 a[href] {
@@ -11339,8 +11342,6 @@ a[href]:hover {
 
 @media only screen and (max-width: 900px) {
   .logo {
-    display: none;
-    position: absolute;
     right: 0px;
     background: url("../assets/img/logo.webp") white no-repeat center center scroll;
     border-radius: 50%;

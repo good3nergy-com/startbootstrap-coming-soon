@@ -45,13 +45,16 @@ video.bg-video {
 // Mobile fallback for touch screen devices which typically
 // do not load HTML video
 .logo {
-    position:absolute;
-    right:0px;
+    position: absolute;
+    margin:20px;
+    z-index:999;
+    bottom:0px;
+    left:0px;
     background: url('../assets/img/logo.webp') white no-repeat center center scroll;
     border-radius:50%;
     background-size: cover;
-    width:150px;
-    height:150px;
+    width:50px;
+    height:50px;
 }
 
 a[href] {
@@ -64,8 +67,6 @@ a[href] {
 
 @media only screen and (max-width : 900px) {
     .logo {
-        display:none;
-        position:absolute;
         right:0px;
         background: url('../assets/img/logo.webp') white no-repeat center center scroll;
         border-radius:50%;
