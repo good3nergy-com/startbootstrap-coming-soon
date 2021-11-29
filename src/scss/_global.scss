@@ -53,18 +53,7 @@ video.bg-video {
     width:150px;
     height:150px;
 }
-@media (pointer: coarse) and (hover: none) {
 
-    body {
-        background: url('../assets/img/bg-mobile-fallback.jpg') $primary no-repeat center center scroll;
-        background-size: cover;
-        display:none;
-    }
-
-    body video {
-        display: none;
-    }
-}
 a[href] {
     text-decoration: none;
     color:white;
