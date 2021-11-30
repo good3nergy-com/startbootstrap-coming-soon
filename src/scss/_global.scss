@@ -45,6 +45,7 @@ video.bg-video {
 // Mobile fallback for touch screen devices which typically
 // do not load HTML video
 .logo {
+    display:none;
     position: absolute;
     margin:20px;
     z-index:999;
@@ -65,14 +66,4 @@ a[href] {
     }
 }
 
-@media only screen and (max-width : 900px) {
-    .logo {
-        right:0px;
-        background: url('../assets/img/logo.webp') white no-repeat center center scroll;
-        border-radius:50%;
-        background-size: cover;
-        width:50px !important;
-        height:50px !important;
-    }
-}
 
