@@ -11320,6 +11320,7 @@ video.bg-video {
 }
 
 .logo {
+  display: none;
   position: absolute;
   margin: 20px;
   z-index: 999;
@@ -11340,16 +11341,6 @@ a[href]:hover {
   opacity: 0.5;
 }
 
-@media only screen and (max-width: 900px) {
-  .logo {
-    right: 0px;
-    background: url("../assets/img/logo.webp") white no-repeat center center scroll;
-    border-radius: 50%;
-    background-size: cover;
-    width: 50px !important;
-    height: 50px !important;
-  }
-}
 .masthead {
   position: relative;
   overflow: hidden;
